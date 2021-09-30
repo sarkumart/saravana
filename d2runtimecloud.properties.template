@@ -1,0 +1,54 @@
+# define content server details
+d2.version=
+dfs.version=
+
+d2.automation.cs.platform.type=
+d2.automation.cs.docbroker.host=
+d2.automation.cs.docbroker.port=
+d2.automation.docbase.names=
+d2.automation.cs.docbase.primary=
+d2.automation.cs.docbase.secondary=
+d2.automation.cs.docbase.tertiary=
+d2.automation.cs.install.owner.username=
+d2.automation.cs.install.owner.password=
+
+d2.automation.cs.admin.username=
+d2.automation.cs.admin.password=
+
+d2.automation.smartui.platform.type=
+d2.automation.smartui.host=
+d2.automation.smartui.port=
+d2.automation.smartui.type=
+
+d2.automation.execution.type=
+# Install Config to docbases 
+
+d2.install.testdata=
+
+
+#Possible values are IE, IE64, CHROME, FIREFOX, SAFARI
+d2.automation.browser.type=
+
+#Possible values Acceptance or Regression
+d2.automation.execution.type=
+
+d2.automation.runtime.browser.version=
+
+d2.automation.execution.include.tags=@Smoke,@Sanity
+
+d2.automation.execution.CSENV1.20.2.Node1.Acceptance.tags=@16.7Acceptance,@20.2Acceptance
+
+d2.automation.execution.CSENV1.20.2.Node1.Regression.tags=@16.7BrowseRepository,@16.7QuickSearch,@16.7RecentlyAccessed,@16.7Signin,@16.7Signout,@16.7Favorite,@16.7MobileBrowser,@16.7ViewContent,@16.7PropertiesPage,@16.7ColumnPreference,@20.2LandingPageSupportingTiles,@20.2QueryFormSupport,@20.2SortingOptions,@20.2UploadFile,@20.2PropertiesPage,@20.2hamburgerMenu,@20.4SavedSearchTile,@20.4URLWidgets,@20.4SavedSearchWidget,@20.4TaskListWidget,@20.4DocumentOverview,@20.4PropertiesPage
+
+d2.automation.execution.CSENV1.20.4.Node1.Acceptance.tags=@16.7Acceptance,@20.2Acceptance,@20.4Acceptance
+
+d2.automation.execution.CSENV1.20.4.Node1.Regression.tags=@16.7BrowseRepository,@16.7QuickSearch,@16.7RecentlyAccessed,@16.7Signin,@16.7Signout,@16.7Favorite,@16.7MobileBrowser,@16.7ViewContent,@16.7PropertiesPage,@16.7ColumnPreference,@20.2LandingPageSupportingTiles,@20.2QueryFormSupport,@20.2SortingOptions,@20.2UploadFile,@20.2PropertiesPage,@20.4SavedSearchTile,@20.4URLWidgets,@20.4SavedSearchWidget,@20.2hamburgerMenu,@20.4TaskListWidget
+
+d2.automation.execution.CSENV1.21.2.Node1.Acceptance.tags=@16.7Acceptance
+
+d2.automation.execution.CSENV1.21.2.Node1.Regression.tags=@16.7Acceptance
+
+
+d2.automation.execution.CSENV1.21.4.Node1.Acceptance.tags=@16.7Acceptance
+
+d2.automation.execution.CSENV1.21.4.Node1.Regression.tags=@16.7Acceptance

@@ -1,0 +1,75 @@
+# provide runtime environment name of cloud
+master.runtime.env.name=
+
+# define content server details
+master.d2.version=
+
+#Possible values UI or REST
+master.automation.type= UI
+
+#Possible values TOMCAT,TCSERVER,WEBLOGIC,WEBSPHERE,JBOSS
+master.apphost.type= 
+
+#Provide the docbroker ip
+master.docbroker.ip=
+
+#Provide docbroker external port 
+master.docbroker.port=
+
+master.cs.installowner.username=
+master.cs.installowner.password=
+
+master.cs.admin.username=Administrator
+master.cs.admin.password=Password@123
+
+#Provide docbase name
+master.docbase.name=
+
+#Provide D2 Config ingress hostname 
+master.d2.config.hostname=
+
+#Provide D2 Client ingress hostname 
+master.d2.client.hostname=
+
+#Possible values YES or NO.
+master.install.testdata=
+
+#Possible values are IE, IE64, CHROME, FIREFOX, SAFARI
+master.automation.browser.type=
+
+#Possible values  Acceptance or Regression
+master.automation.testsuite.type= 
+
+#Possible values YES or NO. Whether pe build to updated or not
+master.pe.build.update= 
+
+#Provide PE build main version.
+master.pe.build.version=
+
+#Provide PE build Patch number . Provide Empty value if they is no patch   
+master.pe.specific.build.patch.version=
+
+#Provide either Empty value or Specific PE build no
+master.pe.specific.build.no=
+
+
+#Possible values YES or NO. Whether cs build to updated or not
+master.cs.build.update= 
+
+#Provide Content Server build version  
+master.cs.build.version=
+
+#Provide Content Server build Patch number. Provide Empty value if they is no patch   
+master.cs.specific.build.patch.version=
+#Provide either Empty value or Specific CS build no
+master.cs.specific.build.no=
+
+#Possible values YES or NO. Whether pe build to updated or not
+master.d2.build.update=
+
+#Provide d2 unity build Patch number. Provide Empty value if they is no patch   
+master.d2.specific.build.patch.version=
+#Provide either Empty value or Specific d2unity build no
+master.d2.specific.build.no=
+
+

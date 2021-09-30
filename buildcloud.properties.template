@@ -1,0 +1,68 @@
+# Content Server details
+cs.environment.name=
+cs.service.primary.docbase = 
+cs.service.secondary.docbase = 
+cs.service.docbroker = 
+cs.service.exdocbroker = 
+cs.service.methodserver = 
+cs.service.messagingserver =
+cs.service.thumbnailserver =  
+
+documentum.home.dir = C:\\Documentum
+
+
+#set ON or OFF. If set to ON, D2 Configs will installed on Primary Content Server
+d2.install.configs = OFF
+
+# Plefilesvr location 
+ftp.build.server.username = ftpuser
+ftp.build.server.password = Password@123
+ftp.build.server.hostname = 10.194.41.165
+
+# Plefilesvr location 
+#ftp.build.server.username = QEBuild@dctmlabs
+#ftp.build.server.password = th3n33dfu1
+#ftp.build.server.hostname = 10.8.132.22
+
+# set ON or OFF. If set to ON, Content Server build will be downloaded. 
+d2.build.cs.update = ON
+#Provide the Path to the Content Server location /Builds/Content_Server.  NOTE don't provide any version
+d2.build.cs.location = /Content_Server/cs.version
+#Provide the Major version of Content Server
+d2.build.cs.patch.version =
+d2.build.cs.specific.build.no = 
+d2.build.cs.type = envtype64_csdb_64bit
+
+d2.build.cs.folder.location = 
+d2.build.cs.file.name = 
+
+d2.cs.server.patchinstaller.location=/Builds/patch-installer/2.0/2.0.0000.0066
+d2.cs.server.patchinstaller.filename=patch.exe
+
+# set ON or OFF. If set to ON Process Engine build will be downloaded. 
+d2.build.pe.update = ON
+#d2.build.pe.location = /BPM/pe.version
+d2.build.pe.location = /BPM/pe.version
+d2.build.pe.patch.version =
+d2.build.pe.specific.build.no= 
+d2.build.pe.type = 
+
+d2.build.pe.folder.location = 
+d2.build.pe.file.name = Process_Engine_win.zip
+
+d2.build.d2.update = ON
+d2.build.d2.location = /D2/d2.version.0
+d2.build.d2.patch.version = 
+d2.build.d2.specific.build.no =
+
+d2.build.d2.folder.location = 
+d2.build.d2.file.list = 
+d2.build.d2.plugins.file.list =
+d2.build.d2.file.list =
+
+d2.build.composer.update = YES
+d2.build.composer.location = /Composer/16.4
+d2.build.composer.patch.version = 
+d2.build.composer.specific.build.no = 
+d2.build.composer.folder.location = 
+d2.build.composer.file.list =
