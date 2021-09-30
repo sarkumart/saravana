@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AutomatedInstallation langpack="eng">
+<com.izforge.izpack.panels.HTMLHelloPanel id="welcome"/>
+<com.izforge.izpack.panels.UserInputPanel id="SelectInstallOrMergeConfig">
+<userInput>
+<entry key="UpgradeD2" value="true"/>
+<entry key="CustomizedUpgrade" value="true"/>
+<entry key="MergeConfigs" value="false"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.HTMLInfoPanel id="readme"/>
+<com.izforge.izpack.panels.PacksPanel id="UNKNOWN (com.izforge.izpack.panels.PacksPanel)">
+<pack index="0" name="Installer files" selected="true"/>
+<pack index="1" name="D2" selected="true"/>
+<pack index="2" name="D2-Config" selected="true"/>
+<pack index="3" name="D2-API for Documentum Server/JMS" selected="true"/>
+<pack index="4" name="D2-API for BPM" selected="true"/>
+<pack index="5" name="DAR" selected="true"/>
+</com.izforge.izpack.panels.PacksPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UserInputPanel.0">
+<userInput>
+<entry key="jboss5XCompliant" value="false"/>
+<entry key="webappsDir" value="C:\Program Files\OpenText\D2\webapps"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UserInputPanel.2">
+<userInput>
+<entry key="pluginInstaller" value="C:\cygwin64\home\Administrator\ToolsCS\data\builds\D2\Plugins\C2-Install-@d2version.0.jar;C:\cygwin64\home\Administrator\ToolsCS\data\builds\D2\Plugins\D2-Bin-Install-@d2version.0.jar;C:\cygwin64\home\Administrator\ToolsCS\data\builds\D2\Plugins\O2-Install-@d2version.0.jar;C:\cygwin64\home\Administrator\ToolsCS\data\builds\D2\Plugins\AdvancedPublishing-Install-@d2version.0.jar;"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UserInputPanel.3">
+<userInput>
+<entry key="jmsDir" value="C:\Documentum\tomcat9.0.43\webapps\DmMethods\WEB-INF"/>
+<entry key="csDir" value="C:\Documentum"/>
+<entry key="bpmDir" value="C:\Documentum\tomcat9.0.43\webapps\bpm\WEB-INF"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UserInputPanel.4">
+<userInput>
+<entry key="installationDir" value="C:\Program Files\OpenText\D2\dar"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UserInputPanel.5">
+<userInput>
+<entry key="dfsDir" value="C:\cygwin64\home\Administrator\ToolsCS\data\builds\DFS\dfs-sdk-@dfsversion"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UserInputPanel.7">
+<userInput>
+<entry key="COMMON.USER_ACCOUNT" value="@username"/>
+<entry key="install.owner.password" value="@password"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UserInputPanel.8">
+<userInput>
+<entry key="setReturnRepeatingValue" value="true"/>
+<entry key="SERVER.REPOSITORIES.NAMES" value="@primary"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UserInputPanel.9">
+<userInput>
+<entry key="securityRadioSelection" value="true"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UIPD2ConfigOrClient">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UIPChooseUsetheSameDFC">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UIPChooseReferenceDFCForConfig">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UIPDocbrokerInfo">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UIPEnableDFCSessionPool">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UIPDFCKeyStoreInfo">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UIPSetD2ConfigLanguage">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UIPEnableD2BOCS">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UIPSetHideDomainforConfig">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UIPSetTemporaryMaxFiles">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="10">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="11">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UIPChooseReferenceDFCForClient">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UIPDocbrokerInfoForClient">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="12">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="13">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="14">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="15">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="16">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="17">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="18">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="19">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="20">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="21">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="22">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UIPSetTransferMode">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="24">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="25">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UIPEnableAuditing">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UIPchooseWebAppServer">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UIPAskWebappsDir">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UIPAskNewWarDir">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UIPAskWebAppServerLibDir">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.InstallPanel id="UNKNOWN (com.izforge.izpack.panels.InstallPanel)"/>
+<com.izforge.izpack.panels.XInfoPanel id="UNKNOWN (com.izforge.izpack.panels.XInfoPanel)"/>
+<com.izforge.izpack.panels.FinishPanel id="UNKNOWN (com.izforge.izpack.panels.FinishPanel)"/>
+</AutomatedInstallation>

@@ -1,0 +1,58 @@
+#Possible value: win. Set value to win if machine type  is Windows
+mc.os=win
+mc.env.name=CSENV1
+mc.internal.ip=192.168.2.100
+mc.external.ip=10.194.55.172
+mc.java.path=C:\Program Files\Java\jdk-11.0.5
+mc.home=C:/cygwin64/home/Administrator
+mc.hostname=CS202WS82SSL
+mc.machine.apphost=NO
+mc.d2.webapps.location=C://Program Files//OpenText//D2//webapps
+mc.documentum.content.server.installed=YES
+mc.documentum.content.server.version=20.2
+mc.documentum.docbase.primary.name=testenv
+mc.documentum.docbase.secondary.name= 
+mc.documentum.docbase.tertiary.name= 
+mc.documentum.docbase.names=testenv
+
+mc.documentum.docbase.service.primary= DmServertestenv
+mc.documentum.docbase.service.secondary= 
+mc.documentum.docbase.service.tertiary= 
+mc.documentum.service.docbroker = Dmdocbroker
+mc.documentum.service.exdocbroker = Dmexdocbroker
+mc.documentum.service.methodserver = DmMethodServer
+mc.documentum.service.messagingserver = 
+mc.documentum.service.thumbnailserver = 
+mc.documentum.docbroker.port=1489
+mc.documentum.exdocbroker.port=1489
+mc.documentum.install.owner.username=Administrator
+mc.documentum.install.owner.password=Password@123
+mc.documentum.admin.username=Administrator
+mc.documentum.admin.password=Password@123
+mc.documentum.aekey.passphrase=Password@123
+mc.documentum.home.dir=C:\\Documentum
+mc.d2.webapps.location=C:\\Program Files\\OpenText\\D2\\webapps
+mc.documentum.methodserver.location=C:\\Documentum\\wildfly17.0.1
+mc.dfc.globalregistry.repository=testenv
+mc.dfc.globalregistry.username=dm_bof_registry
+mc.dfc.globalregistry.password=AAAAEMyB0YqkCucEfQLTbyhvmIbG0taouNo9lB5aK37n69wN
+mc.dfc.security.ssl.truststore=C\:\\Documentum\\dba\\secure\\dfc.keystore
+#Possible values: ora,sql .Set value ora if the CS connects to Oracle DB. set value sql if the CS connects to SQL
+mc.documentum.contentserver.db.type=sql
+mc.sql.installed=YES
+mc.sql.version=
+mc.ora.installed=YES
+mc.ora.username=sa
+mc.ora.password=manager
+mc.ora.version=ORACLE12.1.0.2.0
+
+mc.ant.installed=YES
+mc.ant.location=C:\\software\\apache-ant-1.9.3
+# Tomcat DA server details
+#Possible values: YES,NO. Set value YES if Tomcat Server is installed on this machine
+mc.tomcat.da.installed=NO
+mc.tomcat.da.service = tomcat9
+mc.tomcat.da.manager.port=8080
+mc.tomcat.da.manager.username = Administrator
+mc.tomcat.da.manager.password = Password@123
+mc.tomcat.da.location =C:\\apache-tomcat-9.0.2

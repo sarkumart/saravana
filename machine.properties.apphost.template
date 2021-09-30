@@ -1,0 +1,51 @@
+#Possible value: win. Set value to win if machine type  is Windows
+mc.os=win
+mc.internal.ip=192.168.2.101
+mc.hostname=D2UNITYAPPHOST
+mc.machine.apphost=YES
+mc.apphost.TcServer.installed=YES
+mc.apphost.TcServer.service = D2_Unity_Serv
+mc.apphost.TcServer.port=8060
+mc.apphost.TcServer.username = Administrator
+mc.apphost.TcServer.password = Password@12
+mc.apphost.TcServer.location =C:\\Tc Server 2.9.6
+#D2.URL : http://10.194.38.52:8060/D2
+#Unity-Web-URL : http://10.194.38.52:8060/d2-unity-web/ui/pages/debug/app.html
+
+mc.apphost.tomcat.installed=YES
+mc.apphost.tomcat.service = Tomcat_D2_Unity
+mc.apphost.tomcat.manager.port=8070
+mc.apphost.tomcat.manager.username = Administrator
+mc.apphost.tomcat.manager.password = Password@123
+mc.apphost.tomcat.location =C:\\Apache-Tomcat-9.0.1
+#D2-URL : http://10.194.38.52:8070/D2
+#Unity-Web-URL : http://10.194.38.52:8070/d2-unity-web/ui/pages/debug/app.html
+
+
+
+mc.apphost.Jboss.installed=YES
+mc.apphost.Jboss.service = No
+mc.apphost.Jboss.port=8080
+mc.apphost.Jboss.username = admin
+mc.apphost.Jboss.password = password
+mc.apphost.Jboss.location =C:\\jboss-eap-7.1
+#D2.URL : http://10.194.38.52:8080/D2
+#Unity-Web-URL : http://10.194.38.52:8080/d2-unity-web/ui/pages/debug/app.html
+
+mc.apphost.weblogic.installed=YES
+mc.apphost.weblogic.service = N/A
+mc.apphost.weblogic.port=7001
+mc.apphost.weblogic.username = Weblogic
+mc.apphost.weblogic.password = Weblogic1
+mc.apphost.weblogic.location =C:\Oracle\Middleware\Oracle_Home
+#D2.URL : http://10.194.38.52:7001/D2
+#Unity-Web-URL : http://10.194.38.52:7001/d2-unity-web/ui/pages/debug/app.html
+
+mc.apphost.IBMWAS.installed=YES
+mc.apphost.IBMWAS.service = IBMWAS90Service - D2UNITYAPPHOSTNode01
+mc.apphost.IBMWAS.port=9080
+mc.apphost.IBMWAS.username = root
+mc.apphost.IBMWAS.password = 
+mc.apphost.IBMWAS.location =C:\Program Files\IBM\WebSphere
+#D2.URL : http://10.194.38.52:9080/D2
+#Unity-Web-URL : http://10.194.38.52:9080/d2-unity-web/ui/pages/debug/app.html

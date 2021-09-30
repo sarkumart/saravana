@@ -1,0 +1,63 @@
+# define content server details
+d2.version=
+dfs.version=
+
+d2.automation.cs.platform.type=
+d2.automation.cs.docbroker.host=
+d2.automation.cs.docbroker.port=
+d2.automation.docbase.names=
+d2.automation.cs.docbase.primary=
+d2.automation.cs.install.owner.username=
+d2.automation.cs.install.owner.password=
+
+d2.automation.cs.admin.username=
+d2.automation.cs.admin.password=
+
+d2.automation.apphost.platform.type=
+d2.automation.apphost.host=
+d2.automation.apphost.port=
+d2.automation.apphost.type=
+
+d2.automation.execution.type=
+# Install Config to docbases 
+
+d2.install.config.primary=YES
+
+#Possible values are IE, IE64, CHROME, FIREFOX, SAFARI
+d2.automation.browser.type=CHROME
+d2.automation.execution.include.tags=@Smoke,@Sanity
+
+d2.automation.execution.CSENV1.20.2.Node1.Acceptance.tags=@16.7Acceptance,@20.2Acceptance
+
+d2.automation.execution.CSENV1.20.2.Node1.Regression.tags=@16.7BrowseRepository,@16.7QuickSearch,@16.7RecentlyAccessed,@16.7Signin,@16.7Signout,@16.7Favorite,@16.7MobileBrowser,@16.7ViewContent,@16.7PropertiesPage,@16.7ColumnPreference,@20.2LandingPageSupportingTiles,@20.2QueryFormSupport,@20.2SortingOptions,@20.2UploadFile,@20.2PropertiesPage,@20.2hamburgerMenu
+
+d2.automation.execution.CSENV1.20.4.Node1.Acceptance.tags=@16.7Acceptance,@20.2Acceptance,@20.4Acceptance
+
+d2.automation.execution.CSENV1.20.4.Node1.Regression.tags=@16.7BrowseRepository,@16.7QuickSearch,@16.7RecentlyAccessed,@16.7Signin,@16.7Signout,@16.7Favorite,@16.7MobileBrowser,@16.7ViewContent,@16.7PropertiesPage,@16.7ColumnPreference,@20.2LandingPageSupportingTiles,@20.2QueryFormSupport,@20.2SortingOptions,@20.2UploadFile,@20.2PropertiesPage,@20.2hamburgerMenu,@20.4SavedSearchTile,@20.4URLWidgets,@20.4SavedSearchWidget,@20.4TaskListWidget,@20.4DocumentOverview,@20.4PropertiesPage,@20.4ProfilePicture
+
+d2.automation.execution.CSENV1.20.4.Node2.Regression.tags= @20.4BarcodeScannerTile
+
+d2.automation.execution.CSENV1.21.2.Node1.Acceptance.tags=@16.7Acceptance,@20.2Acceptance,@20.4Acceptance,@21.2Acceptance
+
+d2.automation.execution.CSENV1.21.2.Node1.Regression.tags=@16.7BrowseRepository,@16.7QuickSearch,@16.7RecentlyAccessed,@16.7Signin,@16.7Signout,@16.7Favorite,@16.7MobileBrowser,@16.7ViewContent,@16.7PropertiesPage,@16.7ColumnPreference,@20.2LandingPageSupportingTiles,@20.2QueryFormSupport,@20.2SortingOptions,@20.2UploadFile,@20.2PropertiesPage,@20.2hamburgerMenu,@20.4SavedSearchTile,@20.4URLWidgets,@20.4SavedSearchWidget,@20.4TaskListWidget,@20.4DocumentOverview,@20.4PropertiesPage,@20.4ProfilePicture,@21.2ProfilePicture,@21.2EditDocument,@21.2AddVersions,@21.2TaskListWidget,@21.2ImproveUserExperience,@21.2Workflows,@21.2Facets,@Facets
+
+d2.automation.execution.CSENV1.21.2.Node2.Regression.tags= @20.4BarcodeScannerTile
+
+d2.automation.execution.CSENV1.21.2.Node3.Regression.tags=
+
+
+d2.automation.execution.CSENV1.21.3.Node1.Acceptance.tags=@16.7Acceptance,@20.2Acceptance,@20.4Acceptance,@21.2Acceptance
+
+d2.automation.execution.CSENV1.21.3.Node1.Regression.tags=@16.7BrowseRepository,@16.7QuickSearch,@16.7RecentlyAccessed,@16.7Signin,@16.7Signout,@16.7Favorite,@16.7MobileBrowser,@16.7ViewContent,@16.7PropertiesPage,@16.7ColumnPreference,@20.2LandingPageSupportingTiles,@20.2QueryFormSupport,@20.2SortingOptions,@20.2UploadFile,@20.2PropertiesPage,@20.2hamburgerMenu,@20.4SavedSearchTile,@20.4URLWidgets,@20.4SavedSearchWidget,@20.4TaskListWidget,@20.4DocumentOverview,@20.4PropertiesPage,@20.4ProfilePicture,@21.2ProfilePicture,@21.2EditDocument,@21.2AddVersions,@21.2TaskListWidget,@21.2ImproveUserExperience,@21.2Workflows,@21.2Facets,@Facets,@21.3CheckedoutFiles,@CheckedoutFiles
+
+d2.automation.execution.CSENV1.21.3.Node2.Regression.tags= @20.4BarcodeScannerTile
+
+d2.automation.execution.CSENV1.21.3.Node3.Regression.tags=
+
+d2.automation.execution.CSENV1.21.4.Node1.Acceptance.tags=@16.7Acceptance,@20.2Acceptance,@20.4Acceptance,@21.2Acceptance
+
+d2.automation.execution.CSENV1.21.4.Node1.Regression.tags=@16.7BrowseRepository,@16.7QuickSearch,@16.7RecentlyAccessed,@16.7Signin,@16.7Signout,@16.7Favorite,@16.7MobileBrowser,@16.7ViewContent,@16.7PropertiesPage,@16.7ColumnPreference,@20.2LandingPageSupportingTiles,@20.2QueryFormSupport,@20.2SortingOptions,@20.2UploadFile,@20.2PropertiesPage,@20.2hamburgerMenu,@20.4SavedSearchTile,@20.4URLWidgets,@20.4SavedSearchWidget,@20.4TaskListWidget,@20.4DocumentOverview,@20.4PropertiesPage,@20.4ProfilePicture,@21.2ProfilePicture,@21.2EditDocument,@21.2AddVersions,@21.2TaskListWidget,@21.2ImproveUserExperience,@21.2Workflows,@21.2Facets,@Facets,@21.3CheckedoutFiles,@CheckedoutFiles,@21.4Relations,@Relations,@21.4LifeCycle,@LifeCycle
+
+d2.automation.execution.CSENV1.21.4.Node2.Regression.tags= @20.4BarcodeScannerTile
+
+d2.automation.execution.CSENV1.21.4.Node3.Regression.tags=

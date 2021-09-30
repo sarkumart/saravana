@@ -1,0 +1,70 @@
+# define content server details
+master.d2.version=
+master.dfs.version= 
+
+#Possible values UI or REST
+master.automation.type= UI
+
+#Possible values TOMCAT,TCSERVER,WEBLOGIC,WEBSPHERE,JBOSS
+master.apphost.type= 
+
+#Provide the list of machines used
+master.hostname.list=
+
+master.hosts.admin.username=Administrator
+master.hosts.admin.password=Password@123
+
+#Possible values are IE, IE64, CHROME, FIREFOX, SAFARI
+master.automation.browser.type=
+
+#Possible values  Acceptance or Regression
+master.automation.testsuite.type= 
+
+#Possible values YES or NO. Whether pe build to updated or not
+master.pe.build.update= 
+
+#Provide PE build main version.
+master.pe.version=
+
+#Provide PE build Patch number . Provide Empty value if they is no patch   
+master.pe.specific.build.patch.version=
+
+#Provide either Empty value or Specific PE build no
+master.pe.specific.build.no=
+
+
+#Possible values YES or NO. Whether cs build to updated or not
+master.cs.build.update= 
+
+#Provide Content Server build version  
+master.cs.build.version=
+
+#Provide Content Server build Patch number. Provide Empty value if they is no patch   
+master.cs.specific.build.patch.version=
+#Provide either Empty value or Specific CS build no
+master.cs.specific.build.no=
+
+#Possible values YES or NO. Whether pe build to updated or not
+master.d2.build.update=
+
+#Provide d2 unity build Patch number. Provide Empty value if they is no patch   
+master.d2.specific.build.patch.version=
+#Provide either Empty value or Specific d2unity build no
+master.d2.specific.build.no=
+
+
+#Provide DFS build Patch number . Provide Empty value if they is no patch   
+master.dfs.specific.build.patch.version=
+#Provide either Empty value or Specific dfs build no
+master.dfs.specific.build.no=
+
+#Possible values YES or NO. Use Primary docbase for Automation
+master.use.docbase.primary=
+
+#Possible values BASIC or OTDS.
+master.auth.type=
+
+#Provide the ip address of OTDS.
+master.otds.ip=
+
+

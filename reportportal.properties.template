@@ -1,0 +1,27 @@
+REQUIRED
+rp.endpoint = http://10.194.38.98:8080
+
+rp.uuid = 6fcafdf3-3aaf-4fc4-8267-f30e706d0f6d
+
+rp.launch = D2Mob@releaseno@exectype
+
+rp.project = D2Mobile_214
+
+NOT REQUIRED
+rp.enable = true
+
+rp.description = 
+
+rp.attributes = ReleaseVersion:@releaseno;BuildID:@buildno; HostName:@hostname;ExecutionType:@exectype
+
+rp.convertimage = true
+
+rp.mode = DEFAULT
+
+rp.skipped.issue = true
+
+rp.batch.size.logs = 20
+
+rp.keystore.resource = <PATH_TO_YOUR_KEYSTORE>
+
+rp.keystore.password = <PASSWORD_OF_YOUR_KEYSTORE>

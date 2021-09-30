@@ -1,0 +1,26 @@
+#Possible value: win. Set value to win if machine type  is Windows
+mc.os=win
+mc.internal.ip=192.168.2.102
+mc.hostname=agent1
+
+# Type of Mobile device . EMULATOR or DEVICE
+mc.mobile.type=EMULATOR
+
+# Name of the connected device.
+mc.mobile.device.name=emulator-5554
+
+# Mobile OS platform to use: Android, iOS or FirefoxOS
+mc.mobile.platform.name= Android
+
+# Mobile OS version
+mc.mobile.platform.version=9
+
+#Which automation engine to use. UiAutomator2  for Android or XCUITest for iOS 
+mc.mobile.automation.name=UiAutomator2
+
+#Appium Server URL
+mc.mobile.server.url=http://127.0.0.1:4723/wd/hub
+
+# Unique device identifier of the connected physical device
+mc.mobile.device.udid =
+
